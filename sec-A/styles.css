@@ -1,0 +1,59 @@
+*{
+  width: 100%;
+  /* height: 100%; */
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container{
+  position: relative;
+  width: 40vw;
+  height:50vh;
+  border: 5px solid rgb(199, 190, 190);
+  justify-self: center;
+  background-color: white;
+}
+
+form{
+  position: relative;
+  width: 30vw;
+  height: 50vh;
+  justify-self: center;
+  align-self:center;
+}
+
+.heading{
+  font-size: 40px;
+  font-weight: 500;
+  display: block;  
+}
+.usename, .usepwd{
+  width: 30vw;
+  height: 4vh;
+  border-radius: 5px;
+}
+
+.usepwd{
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+button{
+  position: absolute;
+  width: 8vw;
+  height: 5vh;
+  background-color: greenyellow;
+  border: 1px solid black;
+  border-radius: 10px;
+  left: 0;
+}
+
+button:hover{
+  cursor: pointer;
+}
