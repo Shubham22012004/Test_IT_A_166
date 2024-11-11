@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.container h2{
+  font-size: 25px;
+  display: inline;
+  background-color: yellow;
+  color: rgb(11, 233, 11);
+}
+
+.welcome{
+  font-size: 25px;
+  color: rgb(11, 233, 11) ;
+  margin-top: 4vh;
+}
+.action{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  padding-left: 30px;
+  /* position: relative; */
+}
+
+.fetch{
+  background-color:  rgb(11, 233, 11);
+  color: white;
+  height: 5vh;
+  width: 200px;
+  border: 2px solid greenyellow;
+  
+
+}
+.select{
+  align-self: center;
+  height: 2.5vh;
+  border: 1px solid black;
+}
+.log{
+  position: absolute;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+.logout{
+  background-color: rgb(249, 100, 100);
+  position: absolute;
+  
+  
+}
